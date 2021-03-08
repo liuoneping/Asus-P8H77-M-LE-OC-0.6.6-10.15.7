@@ -3,5 +3,5 @@
 > CPU：I7 3770  
 > 显卡：HD4000  
   
-> OpenCore 0.6.6. 
+> OpenCore 0.6.6  
 > Catalina 10.15.7  

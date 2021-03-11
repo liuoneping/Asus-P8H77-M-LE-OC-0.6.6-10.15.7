@@ -2,6 +2,14 @@
 <!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
 <plist version="1.0">
 <dict>
+	<key>#Build Date</key>
+	<string>2-2-2021</string>
+	<key>#Maker by</key>
+	<string>爱玩黑果的小姐姐</string>
+	<key>#OpenCore Version</key>
+	<string>v0.6.6 DEV</string>
+	<key>#Posted on</key>
+	<string>黑果小兵的部落阁 https://blog.daliansky.net</string>
 	<key>ACPI</key>
 	<dict>
 		<key>Add</key>
@@ -116,6 +124,38 @@
 	<dict>
 		<key>Add</key>
 		<dict>
+			<key>##PciRoot(0x0)/Pci(0x2,0x0)</key>
+			<dict>
+				<key>#备注</key>
+				<string>使用时记得去掉中文注释内容</string>
+				<key>#推荐机型</key>
+				<string>iMac20,1或iMac20,2</string>
+				<key>#适用</key>
+				<string>使用核显辅助独显硬解加速</string>
+				<key>AAPL,ig-platform-id</key>
+				<data>AwCRPg==</data>
+				<key>model</key>
+				<string>Intel UHD Graphics 630</string>
+			</dict>
+			<key>#PciRoot(0x0)/Pci(0x2,0x0)</key>
+			<dict>
+				<key>#ig-platform-id备选方案</key>
+				<string>00009B3E</string>
+				<key>#备注</key>
+				<string>使用时记得去掉中文注释内容</string>
+				<key>#推荐机型</key>
+				<string>iMac20,1或iMac20,2</string>
+				<key>#适用</key>
+				<string>无独显，使用核显作为主显卡，视频输出</string>
+				<key>AAPL,ig-platform-id</key>
+				<data>BwCbPg==</data>
+				<key>framebuffer-patch-enable</key>
+				<data>AQAAAA==</data>
+				<key>framebuffer-stolenmem</key>
+				<data>AAAwAQ==</data>
+				<key>model</key>
+				<string>Intel UHD Graphics 630</string>
+			</dict>
 			<key>PciRoot(0x0)/Pci(0x1B,0x0)</key>
 			<dict>
 				<key>hda-gfx</key>

@@ -5,3 +5,4 @@
   
 > OpenCore 0.6.6  
 > Catalina 10.15.7  
+有疑问可以email:oneping#126.com
